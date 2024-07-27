@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blocker Extension Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f2f2f2; }
+    button { margin: 5px; }
+    input { padding: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Blocker Extension Manager</h1>
+  <h2>Add Website to Block</h2>
+  <input type="text" id="urlInput" placeholder="Enter URL to block">
+  <button id="addBlockButton">Add</button>
+  <h2>Blocked Websites</h2>
+  <table id="blockedSitesTable">
+    <thead>
+      <tr>
+        <th>URL</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="manager.js"></script>
+</body>
+</html>
